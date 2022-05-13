@@ -1,0 +1,132 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/   
+
+
+
+   
+
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+/* @media all and (max-width: 430px) {
+    body {
+        color: olive;
+    }
+    img{
+        width: 900px;
+    }
+} */
+
+
+
+/******************************************
+      /* ADDITIONAL STYLES
+    /*******************************************/
+      
+
+      
+
+html{
+    font-size: 62.50%;
+}
+
+
+body{
+    
+    background-color:rgba(190, 115, 155, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+  
+}
+
+img{
+    
+    border-radius: 10%;
+    margin: 2rem 0 0 0;
+    
+} 
+
+
+.img-card {
+    height:60vh;
+    width:60vw;
+    background-color: rgba(5, 0, 5, 0.2);
+    margin: 0 auto;
+    overflow:hidden;
+    border-radius:10px;
+    box-shadow: rgba( 12px 12px 2px 1px);
+}
+
+.main{
+    
+    height: 90vh;
+    width: 70vw;
+    margin: 2rem auto;
+    border-radius: 5%;
+    background-color:  rgba(190, 115, 155, 0.3);
+}
+
+main > button{
+    color:white;
+    background-color: rgba(0,0,0, 0.5);;
+    height: 4rem;
+    width: 20rem;
+    border-radius: 25px;
+    font-size: 2rem;
+    text-align: center;
+    box-shadow:  rgba(6px 6px 1px .5px);
+    margin-top: 2rem;
+
+}
+footer{
+    background-color: rgb(79, 79, 79);
+    height: 30vh;
+
+
+}
+footer >p{
+    
+    color: white;
+line-height: 1.5;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+header{
+    display: flex;
+    
+    background-color: rgba(0,0,0, 0.5);
+    height: 30vh;
+    /* overflow-x:inherit; */
+}
+
+header >p{
+    
+    color: white;
+line-height: 1.5;
+    font-size: 5rem;
+    text-align: center;
+}
